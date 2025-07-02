@@ -727,19 +727,19 @@ try {
                             </button>
                         </div>
                         
-                        <!-- Tema 3 -->
-                    //     <div class="theme-option" data-theme="3" onclick="selectTheme(3)">
-                    //         <div class="theme-preview">
-                    //             <img src="https://i.ibb.co/x8PCQM3r/8966-media-1.png" alt="Tema 3" loading="lazy">
-                    //         </div>
-                    //         <h3 class="theme-name">Tema Premium</h3>
-                    //         <p class="theme-description">Tema 3 Descrição</p>
-                    //         <button class="theme-select-btn" onclick="generateBanner(3, '${encodeURIComponent(JSON.stringify(movieData))}')">
-                    //             <i class="fas fa-check"></i>
-                    //             Selecionar Tema
-                    //         </button>
-                    //     </div>
-                    // </div>
+                        <!-- Tema 3 
+                        <div class="theme-option" data-theme="3" onclick="selectTheme(3)">
+                            <div class="theme-preview">
+                                <img src="https://i.ibb.co/x8PCQM3r/8966-media-1.png" alt="Tema 3" loading="lazy">
+                            </div>
+                            <h3 class="theme-name">Tema Premium</h3>
+                            <p class="theme-description">Tema 3 Descrição</p>
+                            <button class="theme-select-btn" onclick="generateBanner(3, '${encodeURIComponent(JSON.stringify(movieData))}')">
+                                <i class="fas fa-check"></i>
+                                Selecionar Tema
+                            </button>
+                        </div>
+                    </div> -->
                     
                     <!-- Loading overlay -->
                     <div class="theme-loading-overlay" id="themeLoadingOverlay">

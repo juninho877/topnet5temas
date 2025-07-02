@@ -728,18 +728,18 @@ try {
                         </div>
                         
                         <!-- Tema 3 -->
-                        <div class="theme-option" data-theme="3" onclick="selectTheme(3)">
-                            <div class="theme-preview">
-                                <img src="https://i.ibb.co/x8PCQM3r/8966-media-1.png" alt="Tema 3" loading="lazy">
-                            </div>
-                            <h3 class="theme-name">Tema Premium</h3>
-                            <p class="theme-description">Tema 3 Descrição</p>
-                            <button class="theme-select-btn" onclick="generateBanner(3, '${encodeURIComponent(JSON.stringify(movieData))}')">
-                                <i class="fas fa-check"></i>
-                                Selecionar Tema
-                            </button>
-                        </div>
-                    </div>
+                    //     <div class="theme-option" data-theme="3" onclick="selectTheme(3)">
+                    //         <div class="theme-preview">
+                    //             <img src="https://i.ibb.co/x8PCQM3r/8966-media-1.png" alt="Tema 3" loading="lazy">
+                    //         </div>
+                    //         <h3 class="theme-name">Tema Premium</h3>
+                    //         <p class="theme-description">Tema 3 Descrição</p>
+                    //         <button class="theme-select-btn" onclick="generateBanner(3, '${encodeURIComponent(JSON.stringify(movieData))}')">
+                    //             <i class="fas fa-check"></i>
+                    //             Selecionar Tema
+                    //         </button>
+                    //     </div>
+                    // </div>
                     
                     <!-- Loading overlay -->
                     <div class="theme-loading-overlay" id="themeLoadingOverlay">
@@ -805,14 +805,14 @@ try {
         let generatorFile;
         switch (themeNumber) {
             case 1:
-                generatorFile = 'gerar_banner3.php'; // Tema Premium (com cantos arredondados)
+                generatorFile = 'gerar_banner.php'; // Tema Premium (com cantos arredondados)
                 break;
             case 2:
                 generatorFile = 'gerar_banner2.php'; // Tema Moderno (horizontal)
                 break;
-            case 3:
-                generatorFile = 'gerar_banner.php';  // Tema Clássico (vertical)
-                break;
+            // case 3:
+            //     generatorFile = 'gerar_banner3.php';  // Tema Clássico (vertical)
+            //     break;
             default:
                 generatorFile = 'gerar_banner.php';
         }

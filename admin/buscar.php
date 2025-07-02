@@ -704,7 +704,7 @@ try {
                         <!-- Tema 1 -->
                         <div class="theme-option" data-theme="1" onclick="selectTheme(1)">
                             <div class="theme-preview">
-                                <img src="https://i.ibb.co/MJCWzXj/8966-media-3.png" alt="Tema 1" loading="lazy">
+                                <img src="https://i.ibb.co/7dMFtJWc/banner-Aventuras-da-Liga-da-Justi-a-Armadilha-do-Tempo-tema1.png" alt="Tema 1" loading="lazy">
                             </div>
                             <h3 class="theme-name">Tema Clássico</h3>
                             <p class="theme-description">Tema 1 Descrição</p>
@@ -717,7 +717,7 @@ try {
                         <!-- Tema 2 -->
                         <div class="theme-option" data-theme="2" onclick="selectTheme(2)">
                             <div class="theme-preview">
-                                <img src="https://i.ibb.co/6R7F9Y09/8966-media-2.png" alt="Tema 2" loading="lazy">
+                                <img src="https://i.ibb.co/3mQZdkWp/banner-Aventuras-da-Liga-da-Justi-a-Armadilha-do-Tempo-tema2.png" alt="Tema 2" loading="lazy">
                             </div>
                             <h3 class="theme-name">Tema Moderno</h3>
                             <p class="theme-description">Tema 2 Descrição</p>

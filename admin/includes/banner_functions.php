@@ -9,6 +9,16 @@ define('LOGO_OVERRIDES', [
     'Guadeloupe' => 'https://static.flashscore.com/res/image/data/z7uwX5e5-Qw31eZbP.png',
     'Tanabi' => 'https://ssl.gstatic.com/onebox/media/sports/logos/_0PCb1YBKcxp8eXBCCtZpg_96x96.png',
     'Mundial de Clubes FIFA' => 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/2025_FIFA_Club_World_Cup.svg/1200px-2025_FIFA_Club_World_Cup.svg.png',
+    'Fluminense Sub-20' => 'https://tmssl.akamaized.net//images/wappen/head/14702.png?lm=1648225934',
+	'Atlético GO Sub-20' => 'https://static.flashscore.com/res/image/data/bitT4dYg-EsONvne7.png',
+	'Juventude Sub-20' => 'https://image-service.onefootball.com/transform?w=256&dpr=2&image=https://images.onefootball.com/icons/teams/164/9443.png',
+	'Bahia Sub-20' => 'https://static.flashscore.com/res/image/data/vqxGx9oG-OvUNRgbi.png',
+	'Athletico PR Sub-20' => 'https://static.flashscore.com/res/image/data/j1YS5w3A-29DGlirb.png',
+	'Fortaleza Sub-20' => 'https://image-service.onefootball.com/transform?w=256&dpr=2&image=https://images.onefootball.com/icons/teams/164/9372.png',
+	'RB Bragantino Sub-20' => 'https://res.cloudinary.com/dq4uxsxpv/image/upload/rb-bragantino-u20.webp',
+	'Botafogo Sub-17' => 'https://www.ogol.com.br/img/logos/equipas/2233_imgbank_1683624192.png',
+	'Vasco Sub-20' => 'https://image-service.onefootball.com/transform?w=256&dpr=2&image=https://images.onefootball.com/icons/teams/164/8993.png',
+	'Botafogo Sub-20' => 'https://www.ogol.com.br/img/logos/equipas/2233_imgbank_1683624192.png',
 ]);
 
 // Cache simples

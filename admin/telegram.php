@@ -294,8 +294,8 @@ include "includes/header.php";
                         <div class="manual-send-icon">
                             <i class="fas fa-futbol"></i>
                         </div>
-                        <h4 class="manual-send-title">Tema 1 (Clássico)</h4>
-                        <p class="manual-send-desc">Banner tradicional com layout vertical</p>
+                        <h4 class="manual-send-title">Tema 1</h4>
+                        <p class="manual-send-desc"></p>
                         <button type="button" class="btn btn-primary w-full mt-3 send-football-btn" data-theme="football_1">
                             <i class="fas fa-paper-plane"></i>
                             Enviar Agora
@@ -306,8 +306,8 @@ include "includes/header.php";
                         <div class="manual-send-icon">
                             <i class="fas fa-futbol"></i>
                         </div>
-                        <h4 class="manual-send-title">Tema 2 (Moderno)</h4>
-                        <p class="manual-send-desc">Banner compacto com layout horizontal</p>
+                        <h4 class="manual-send-title">Tema 2</h4>
+                        <p class="manual-send-desc"></p>
                         <button type="button" class="btn btn-primary w-full mt-3 send-football-btn" data-theme="football_2">
                             <i class="fas fa-paper-plane"></i>
                             Enviar Agora
@@ -318,8 +318,8 @@ include "includes/header.php";
                         <div class="manual-send-icon">
                             <i class="fas fa-futbol"></i>
                         </div>
-                        <h4 class="manual-send-title">Tema 3 (Premium)</h4>
-                        <p class="manual-send-desc">Banner premium com design especial</p>
+                        <h4 class="manual-send-title">Tema 3</h4>
+                        <p class="manual-send-desc"></p>
                         <button type="button" class="btn btn-primary w-full mt-3 send-football-btn" data-theme="football_3">
                             <i class="fas fa-paper-plane"></i>
                             Enviar Agora
@@ -330,9 +330,20 @@ include "includes/header.php";
                         <div class="manual-send-icon">
                             <i class="fas fa-futbol"></i>
                         </div>
-                        <h4 class="manual-send-title">Tema 4 (Agenda)</h4>
-                        <p class="manual-send-desc">Banner com layout de agenda esportiva</p>
+                        <h4 class="manual-send-title">Tema 4</h4>
+                        <p class="manual-send-desc"></p>
                         <button type="button" class="btn btn-primary w-full mt-3 send-football-btn" data-theme="football_4">
+                            <i class="fas fa-paper-plane"></i>
+                            Enviar Agora
+                        </button>
+                    </div>
+                    <div class="manual-send-card">
+                        <div class="manual-send-icon">
+                            <i class="fas fa-futbol"></i>
+                        </div>
+                        <h4 class="manual-send-title">Tema 5</h4>
+                        <p class="manual-send-desc"></p>
+                        <button type="button" class="btn btn-primary w-full mt-3 send-football-btn" data-theme="football_5">
                             <i class="fas fa-paper-plane"></i>
                             Enviar Agora
                         </button>

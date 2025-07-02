@@ -267,7 +267,7 @@ class TelegramService {
                     $bannerModel = 3;
                     break;
                 case 'football_4':
-                    $bannerModel = 5;
+                    $bannerModel = 4;
                     break;
                 case 'football_5':
                     $bannerModel = 5;

@@ -1273,12 +1273,12 @@ function _gerarBannerModel5($userId, $jogos, $grupoJogos, $width, $height, $padd
         $yAtual += $heightPorJogo;
     }
 // Logo das ligas
-        $ligas_url = 'https://i.ibb.co/ycxpN2rc/Rodape-liga-720.png';
+        $ligas_url = 'https://i.ibb.co/Cp8ck2H3/Rodape-liga-1440.png';
         $logoL = @imagecreatefrompng($ligas_url);
 
     
     if ($logoL) {
-        imagecopy($im, $logoL, 40, 870, 0, 0, imagesx($logoL), imagesy($logoL));
+        imagecopy($im, $logoL, 40, 1500, 0, 0, imagesx($logoL), imagesy($logoL));
     }
     // Cabeçalho com o novo layout
     $fonteTitulo = __DIR__ . '/../fonts/BebasNeue-Regular.ttf';

@@ -1092,12 +1092,12 @@ function _gerarBannerModel4($userId, $jogos, $grupoJogos, $width, $height, $padd
         
         // Logo das ligas
     if ($logoLiga === null) {
-        $ligas_url = 'https://i.ibb.co/ycxpN2rc/Rodape-liga-720.png';
+        $ligas_url = 'https://i.ibb.co/C31hxmM5/Texto-do-seu-par-grafo-2.png';
         $logoLiga = @imagecreatefrompng($ligas_url);
     }
     
     if ($logoLiga) {
-        imagecopy($im, $logoLiga, 40, 870, 0, 0, imagesx($logoLiga), imagesy($logoLiga));
+        imagecopy($im, $logoLiga, 0, 1080, 0, 0, imagesx($logoLiga), imagesy($logoLiga));
     }
         // Carregar imagem VS
         $vsPath = __DIR__ . '/../imgelementos/vs.png';
@@ -1273,12 +1273,12 @@ function _gerarBannerModel5($userId, $jogos, $grupoJogos, $width, $height, $padd
         $yAtual += $heightPorJogo;
     }
 // Logo das ligas
-        $ligas_url = 'https://i.ibb.co/Cp8ck2H3/Rodape-liga-1440.png';
+        $ligas_url = 'https://i.ibb.co/bM5g6RDZ/Texto-do-seu-par-grafo.png';
         $logoL = @imagecreatefrompng($ligas_url);
 
     
     if ($logoL) {
-        imagecopy($im, $logoL, 0, 1550, 0, 0, 1080, imagesy($logoL));
+        imagecopy($im, $logoL, 0, 1560, 0, 0, imagesx($logoL), imagesy($logoL));
     }
     // Cabeçalho com o novo layout
     $fonteTitulo = __DIR__ . '/../fonts/BebasNeue-Regular.ttf';

@@ -1097,7 +1097,7 @@ function _gerarBannerModel4($userId, $jogos, $grupoJogos, $width, $height, $padd
     }
     
     if ($logoLiga) {
-        imagecopy($im, $logoLiga, 0, 1080, 0, 0, imagesx($logoLiga), imagesy($logoLiga));
+        imagecopy($im, $logoLiga, 0, 1040, 0, 0, imagesx($logoLiga), imagesy($logoLiga));
     }
         // Carregar imagem VS
         $vsPath = __DIR__ . '/../imgelementos/vs.png';

@@ -45,6 +45,19 @@ function imagefilledroundedrect($im, $x1, $y1, $x2, $y2, $radius, $color) {
     imagefilledarc($im, $x1 + $radius, $y2 - $radius, $radius * 2, $radius * 2, 90, 180, $color, IMG_ARC_PIE);
     imagefilledarc($im, $x2 - $radius, $y2 - $radius, $radius * 2, $radius * 2, 0, 90, $color, IMG_ARC_PIE);
 }
+function limitarTexto($texto, $limite, $sufixo = '...') {
+    // Verifica se o texto já é menor ou igual ao limite. Usa mb_strlen para contar caracteres corretamente.
+    if (mb_strlen($texto) <= $limite) {
+        return $texto;
+    }
+
+    // Corta o texto, garantindo espaço para o sufixo.
+    // Usa mb_substr para cortar a string sem quebrar caracteres especiais.
+    $textoCortado = mb_substr($texto, 0, $limite - mb_strlen($sufixo));
+    
+    // Retorna o texto cortado com o sufixo no final.
+    return $textoCortado . $sufixo;
+}
 function removerAcentos($texto) {
     // Passo 1: Remove acentos, como antes (usando o método que funciona no seu servidor)
     $texto = iconv('UTF-8', 'ASCII//TRANSLIT//IGNORE', $texto);

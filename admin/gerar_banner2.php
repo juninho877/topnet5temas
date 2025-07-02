@@ -585,10 +585,7 @@ $actorXPosition = 20;
                             <i class="fas fa-palette"></i>
                             Tema 1 (Clássico)
                         </a>
-                        <a href="gerar_banner3.php?name=<?php echo urlencode($_GET['name']); ?>&type=<?php echo urlencode($_GET['type'] ?? 'filme'); ?>&year=<?php echo urlencode($_GET['year'] ?? ''); ?>" class="btn btn-outline w-full text-sm">
-                            <i class="fas fa-magic"></i>
-                            Tema 3 (Premium)
-                        </a>
+                        
                     </div>
                 </div>
             </div>

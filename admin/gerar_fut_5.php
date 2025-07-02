@@ -83,7 +83,7 @@ if (isset($_GET['download_all']) && $_GET['download_all'] == 1) {
                 $zip->addFile($cachedBanner['file_path'], 'Banners_Fut_5_' . ($index + 1) . '.png');
             } else {
                 // Gerar banner usando a nova função centralizada
-                $im = generateFootballBannerResource($userId, 4, $index, $jogos);
+                $im = generateFootballBannerResource($userId, 5, $index, $jogos);
                 
                 if ($im) {
                     // Salvar no cache

@@ -1097,7 +1097,7 @@ function _gerarBannerModel4($userId, $jogos, $grupoJogos, $width, $height, $padd
     }
     
     if ($logoLiga) {
-        imagecopy($im, $logoLiga, 0, 1000, 0, 0, imagesx($logoLiga), imagesy($logoLiga));
+        imagecopy($im, $logoLiga, 0, 1020, 0, 0, imagesx($logoLiga), imagesy($logoLiga));
     }
         // Carregar imagem VS
         $vsPath = __DIR__ . '/../imgelementos/vs.png';
@@ -1278,7 +1278,7 @@ function _gerarBannerModel5($userId, $jogos, $grupoJogos, $width, $height, $padd
 
     
     if ($logoL) {
-        imagecopy($im, $logoL, 0, 1590, 0, 0, imagesx($logoL), imagesy($logoL));
+        imagecopy($im, $logoL, 0, 1650, 0, 0, imagesx($logoL), imagesy($logoL));
     }
     // Cabeçalho com o novo layout
     $fonteTitulo = __DIR__ . '/../fonts/BebasNeue-Regular.ttf';

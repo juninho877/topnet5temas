@@ -1278,7 +1278,7 @@ function _gerarBannerModel5($userId, $jogos, $grupoJogos, $width, $height, $padd
 
     
     if ($logoL) {
-        imagecopy($im, $logoL, 40, 1500, 0, 0, imagesx($logoL), imagesy($logoL));
+        imagecopy($im, $logoL, 0, 1550, 0, 0, 1080, imagesy($logoL));
     }
     // Cabeçalho com o novo layout
     $fonteTitulo = __DIR__ . '/../fonts/BebasNeue-Regular.ttf';

@@ -114,7 +114,7 @@ include "includes/header.php";
                             <p class="text-sm font-medium text-muted">Usuários Ativos</p>
                             <p class="text-3xl font-bold text-info-500"><?php echo number_format($globalStats['active_users']); ?></p>
                         </div>
-                        <div class="w-14 h-14 bg-info-50 flex items-center justify-center">
+                        <div class="w-14 h-14 rounded-lg flex items-center justify-center">
                             <i class="fas fa-users text-info-500 text-xl"></i>
                         </div>
                     </div>

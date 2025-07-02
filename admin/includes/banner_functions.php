@@ -442,6 +442,12 @@ function generateFootballBannerResource($userId, $bannerModel, $grupoIndex, $all
             $height = max(count($grupoJogos) * $heightPorJogo + $padding * 2 + $espacoExtra, 1200);
             return _gerarBannerModel4($userId, $allJogos, $grupoJogos, $width, $height, $padding, $heightPorJogo, $fontLiga);
             
+        case 5:
+            $width = 1080;
+            $heightPorJogo = 140;
+            $espacoExtra = 300;
+            $height = max(count($grupoJogos) * $heightPorJogo + $padding * 2 + $espacoExtra, 1200);
+            return _gerarBannerModel4($userId, $allJogos, $grupoJogos, $width, $height, $padding, $heightPorJogo, $fontLiga);
         default:
             return false;
     }

@@ -1160,7 +1160,7 @@ window.abortAllOperations = abortAllOperations;
     </div>
 <?php else: ?>
     <div class="models-grid">
-        <?php for ($i = 1; $i <= 4; $i++): ?>
+        <?php for ($i = 1; $i <= 5; $i++): ?>
             <div class="model-card group">
                 <div class="model-card-header">
                     <div class="model-info">

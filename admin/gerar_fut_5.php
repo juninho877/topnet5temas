@@ -147,7 +147,7 @@ if (isset($_GET['download_all']) && $_GET['download_all'] == 1) {
     }
     
     // Gerar banner se não estiver em cache usando a nova função centralizada
-    $im = generateFootballBannerResource($userId, 4, $grupoIndex, $jogos);
+    $im = generateFootballBannerResource($userId, 5, $grupoIndex, $jogos);
     
     if (!$im) {
         header('Content-Type: image/png');
